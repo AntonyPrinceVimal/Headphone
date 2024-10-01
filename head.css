@@ -1,0 +1,292 @@
+html,body{
+    margin: 0%;
+}
+.out{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(49, 1, 1);
+}
+.logodiv{
+    width: 11%;
+    height: 26%;
+    position: absolute;
+    top: -4.2%;
+    right: -2%;
+    z-index: 2;
+}
+.logo{
+    
+    width: 100%;
+    height: 100%;
+    filter: brightness(0) invert(1);
+    
+}
+.new{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 1%;
+    right: 25%;
+    font-family: "Viga";
+    color: white;
+}
+.about{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 1%;
+    right: 18%;
+    font-family: "Viga";
+    color: white;
+}
+.enq{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 1%;
+    right: 10%;
+    font-family: "Viga";
+    color: white;
+}
+.side{
+    width: 40%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.side1{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    background-color: rgb(168, 2, 2);
+    border-radius: 50px;
+    overflow: hidden;
+}
+.idiv{
+    width: 40%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index: 2;
+    
+}
+.img{
+    width: 100%;
+    height: 100%;
+
+}
+.brand{
+    font-size: 8vw;
+    position: absolute;
+    top: 2%;
+    right: 25%;
+    color: aliceblue;
+    font-family: "Righteous",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.model{
+    font-size: 8vw;
+    position: absolute;
+    top: 18%;
+    right: 22%;
+    color: white;
+    font-family: "Righteous",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.dees{
+    font-size: 2vw;
+    position: absolute;
+    top: 46%;
+    left: 54%;
+    color: black;
+    font-family: "Space Grotesk";
+}
+.brand1{
+    font-size: 5.5rem;
+    position: absolute;
+    left: -5%;
+    bottom: 31%;
+    opacity: 0.2;
+    font-family: "Days One";
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(136, 3, 3);
+    transform: rotate(-90deg) scaleX(2) scaley(3);
+}
+.des1{
+    font-size: 1.3vw;
+    position: absolute;
+    bottom: 33%;
+    left: 50.5%;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+}
+.des2{
+    font-size: 1.3vw;
+    position: absolute;
+    bottom: 33%;
+    left: 60.5%;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+}
+.des3{
+    font-size: 1.3vw;
+    position: absolute;
+    bottom: 33%;
+    left: 73.8%;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+}
+.line1{
+    height: 7%;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 35.5%;
+    right: 40.5%;
+}
+.line2{
+    height: 7%;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 35.5%;
+    right: 27.5%;
+}
+.sample{
+    width: 5%;
+    height: 10%;
+    border-radius: 50%;
+    background: conic-gradient(#fc0217 0% 80%, #5b5c5b 80% 100%);
+    position: absolute;
+    bottom: 14%;
+    right: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sample2{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    background-color: rgb(168, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.per{
+    font-size: 2vw;
+    color: white;
+}
+.dd{
+    width: 80%;
+    height: 130%;
+    position: absolute;
+    right: -3%;
+    bottom: 0%;
+    opacity: 0.2;
+    transform:rotate(0deg);
+    
+
+}
+.ddd{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+}
+.buy{
+    width: 20%;
+    height: 7%;
+    background-color: rgb(248, 182, 182);
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-family: "Righteous";
+    font-size: 1.5vw;
+    z-index: 4;
+}
+
+.one{
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 28%;
+    right: 1%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    z-index: 4;
+}
+.two{
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 39%;
+    right: 1%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    z-index: 4;
+}
+.three{
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 51%;
+    right: 1%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+#insta{
+    color: white;
+    font-size: 2vw;    
+}
+#fb{
+    color: white;
+    font-size: 2vw; 
+}
+#x{
+    color: white;
+    font-size: 2vw; 
+}
+.one:hover,.two:hover,.three:hover{
+    opacity: 1;
+}
+.new:hover,.about:hover,.enq:hover{
+    color: red;
+}
+.buy:hover{
+    background-color: rgb(247, 71, 71);
+    color: white;
+}
